@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<!-- hello there, 
+ im madhusudan made this ui design hope it will be helpful to you -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Fashion -Latest Brands</title>
+    <style>
+        img {
+            height: 290px;
+            width: 220px;
+            border-radius: 20px;
+        }
+
+        .d-flex {
+            margin-top: 5%;
+            margin: 548px;
+            position: relative;
+            height: 470px;
+            border-radius: 19px;
+            padding: 20px 20px;
+        }
+
+        div#niche_aa {
+            position: absolute;
+            margin: 290px;
+            width: 300px;
+            padding-left: 50px;
+            padding-top: 20px;
+
+        }
+
+        button.btn.btn-info {
+            border-radius: 40px;
+            height: 30px;
+            width: 30px;
+        }
+
+        button.btn.btn-danger {
+            border-radius: 40px;
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+    <script>
+// Functins to change the images with color buttons
+        function btn_click() {
+            var z = document.getElementById('img1').hidden = true;
+            var y = document.getElementById('img2').hidden = false;
+
+        };
+        function btn2_click() {
+            var y = document.getElementById('img2').hidden = true;
+            var z = document.getElementById('img1').hidden = false;
+        };
+    </script>
+</head>
+
+<body>
+    <!-- main div of content  -->
+    <div class="d-flex justify-content-center shadow-lg">
+        <img src=" https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14985890/2021/8/11/bc6da251-174d-4510-a75a-7a1824af0c251628675682165-United-Colors-of-Benetton-Pink--Off-White-Ditsy-Print-Lenzin-1.jpg
+        " alt="Topper Image" id="img1">
+        <img hidden="true"
+            src=" https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14985898/2021/8/11/2d668847-28b5-4715-bc9e-f13b1f7a20a71628675185705-United-Colors-of-Benetton-Navy-Blue--Off-White-Dress-6331628-1.jpg"
+            alt="Topper images" id="img2">
+
+        <div id="niche_aa">
+            <h4>Topper For Girls</h4>
+            <p><cite><s>$23.5</s></cite> $20.9</p>
+            <!-- color buttons -->
+            <div id="btn">
+                <button type="button" class="btn btn-info" onclick="btn_click()"></button>
+                <button type="button" class="btn btn-danger" onclick="btn2_click()"></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+<!-- Thank you  -->
+</html>
